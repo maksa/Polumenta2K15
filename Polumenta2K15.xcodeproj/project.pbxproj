@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D35343B1B823B4A004043FB /* Polumentizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4E91B7F89C300AD77A3 /* Polumentizator.swift */; };
+		2D35344D1B832D72004043FB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D35344C1B832D72004043FB /* NotificationCenter.framework */; };
+		2D3534521B832D72004043FB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3534511B832D72004043FB /* TodayViewController.swift */; };
+		2D3534541B832D72004043FB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3534531B832D72004043FB /* MainInterface.storyboard */; };
+		2D3534571B832D72004043FB /* DailyPolumenta.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D35344A1B832D72004043FB /* DailyPolumenta.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D6AF4CA1B7F899200AD77A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4C91B7F899200AD77A3 /* AppDelegate.swift */; };
+		2D6AF4CC1B7F899200AD77A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4CB1B7F899200AD77A3 /* ViewController.swift */; };
+		2D6AF4CF1B7F899200AD77A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF4CD1B7F899200AD77A3 /* Main.storyboard */; };
+		2D6AF4D11B7F899200AD77A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF4D01B7F899200AD77A3 /* Images.xcassets */; };
+		2D6AF4D41B7F899200AD77A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF4D21B7F899200AD77A3 /* LaunchScreen.xib */; };
+		2D6AF4E01B7F899200AD77A3 /* Polumenta2K15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4DF1B7F899200AD77A3 /* Polumenta2K15Tests.swift */; };
+		2D6AF4EA1B7F89C300AD77A3 /* Polumentizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4E91B7F89C300AD77A3 /* Polumentizator.swift */; };
+		2D6AF4F61B8236D400AD77A3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4F51B8236D400AD77A3 /* InterfaceController.swift */; };
+		2D6AF4F81B8236D400AD77A3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4F71B8236D400AD77A3 /* NotificationController.swift */; };
+		2D6AF4FA1B8236D400AD77A3 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4F91B8236D400AD77A3 /* GlanceController.swift */; };
+		2D6AF4FC1B8236D400AD77A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF4FB1B8236D400AD77A3 /* Images.xcassets */; };
+		2D6AF5001B8236D400AD77A3 /* Polumenta2K15 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF4FF1B8236D400AD77A3 /* Polumenta2K15 WatchKit App.app */; };
+		2D6AF5081B8236D400AD77A3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF5061B8236D400AD77A3 /* Interface.storyboard */; };
+		2D6AF50A1B8236D400AD77A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AF5091B8236D400AD77A3 /* Images.xcassets */; };
+		2D6AF50D1B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D6AF4F01B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DB319DB1B832EE800ACC312 /* Polumentizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF4E91B7F89C300AD77A3 /* Polumentizator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D3534551B832D72004043FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6AF4BC1B7F899200AD77A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D3534491B832D72004043FB;
+			remoteInfo = DailyPolumenta;
+		};
+		2D6AF4DA1B7F899200AD77A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6AF4BC1B7F899200AD77A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6AF4C31B7F899200AD77A3;
+			remoteInfo = Polumenta2K15;
+		};
+		2D6AF5011B8236D400AD77A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6AF4BC1B7F899200AD77A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6AF4FE1B8236D400AD77A3;
+			remoteInfo = "Polumenta2K15 WatchKit App";
+		};
+		2D6AF50B1B8236D400AD77A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6AF4BC1B7F899200AD77A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6AF4EF1B8236D400AD77A3;
+			remoteInfo = "Polumenta2K15 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D6AF5141B8236D400AD77A3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D3534571B832D72004043FB /* DailyPolumenta.appex in Embed App Extensions */,
+				2D6AF50D1B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D35344A1B832D72004043FB /* DailyPolumenta.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyPolumenta.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D35344C1B832D72004043FB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2D3534501B832D72004043FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3534511B832D72004043FB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2D3534531B832D72004043FB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		2D6AF4C41B7F899200AD77A3 /* Polumenta2K15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polumenta2K15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6AF4C81B7F899200AD77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AF4C91B7F899200AD77A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D6AF4CB1B7F899200AD77A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D6AF4CE1B7F899200AD77A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D6AF4D01B7F899200AD77A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D6AF4D31B7F899200AD77A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2D6AF4D91B7F899200AD77A3 /* Polumenta2K15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Polumenta2K15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6AF4DE1B7F899200AD77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AF4DF1B7F899200AD77A3 /* Polumenta2K15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polumenta2K15Tests.swift; sourceTree = "<group>"; };
+		2D6AF4E91B7F89C300AD77A3 /* Polumentizator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polumentizator.swift; sourceTree = "<group>"; };
+		2D6AF4EB1B7F8F2B00AD77A3 /* Polumentizator copy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Polumentizator copy.m"; sourceTree = "<group>"; };
+		2D6AF4F01B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Polumenta2K15 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6AF4F31B8236D400AD77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AF4F41B8236D400AD77A3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2D6AF4F51B8236D400AD77A3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2D6AF4F71B8236D400AD77A3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2D6AF4F91B8236D400AD77A3 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		2D6AF4FB1B8236D400AD77A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D6AF4FF1B8236D400AD77A3 /* Polumenta2K15 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polumenta2K15 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6AF5051B8236D400AD77A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AF5071B8236D400AD77A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2D6AF5091B8236D400AD77A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D3534471B832D72004043FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D35344D1B832D72004043FB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4C11B7F899200AD77A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4D61B7F899200AD77A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4ED1B8236D400AD77A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D35344B1B832D72004043FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D35344C1B832D72004043FB /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D35344E1B832D72004043FB /* DailyPolumenta */ = {
+			isa = PBXGroup;
+			children = (
+				2D3534511B832D72004043FB /* TodayViewController.swift */,
+				2D3534531B832D72004043FB /* MainInterface.storyboard */,
+				2D35344F1B832D72004043FB /* Supporting Files */,
+			);
+			path = DailyPolumenta;
+			sourceTree = "<group>";
+		};
+		2D35344F1B832D72004043FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D3534501B832D72004043FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6AF4BB1B7F899200AD77A3 = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4E91B7F89C300AD77A3 /* Polumentizator.swift */,
+				2D6AF4C61B7F899200AD77A3 /* Polumenta2K15 */,
+				2D6AF4DC1B7F899200AD77A3 /* Polumenta2K15Tests */,
+				2D6AF4F11B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension */,
+				2D6AF5031B8236D400AD77A3 /* Polumenta2K15 WatchKit App */,
+				2D35344E1B832D72004043FB /* DailyPolumenta */,
+				2D35344B1B832D72004043FB /* Frameworks */,
+				2D6AF4C51B7F899200AD77A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6AF4C51B7F899200AD77A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4C41B7F899200AD77A3 /* Polumenta2K15.app */,
+				2D6AF4D91B7F899200AD77A3 /* Polumenta2K15Tests.xctest */,
+				2D6AF4F01B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension.appex */,
+				2D6AF4FF1B8236D400AD77A3 /* Polumenta2K15 WatchKit App.app */,
+				2D35344A1B832D72004043FB /* DailyPolumenta.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6AF4C61B7F899200AD77A3 /* Polumenta2K15 */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4EB1B7F8F2B00AD77A3 /* Polumentizator copy.m */,
+				2D6AF4C91B7F899200AD77A3 /* AppDelegate.swift */,
+				2D6AF4CB1B7F899200AD77A3 /* ViewController.swift */,
+				2D6AF4CD1B7F899200AD77A3 /* Main.storyboard */,
+				2D6AF4D01B7F899200AD77A3 /* Images.xcassets */,
+				2D6AF4D21B7F899200AD77A3 /* LaunchScreen.xib */,
+				2D6AF4C71B7F899200AD77A3 /* Supporting Files */,
+			);
+			path = Polumenta2K15;
+			sourceTree = "<group>";
+		};
+		2D6AF4C71B7F899200AD77A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4C81B7F899200AD77A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6AF4DC1B7F899200AD77A3 /* Polumenta2K15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4DF1B7F899200AD77A3 /* Polumenta2K15Tests.swift */,
+				2D6AF4DD1B7F899200AD77A3 /* Supporting Files */,
+			);
+			path = Polumenta2K15Tests;
+			sourceTree = "<group>";
+		};
+		2D6AF4DD1B7F899200AD77A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4DE1B7F899200AD77A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6AF4F11B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4F51B8236D400AD77A3 /* InterfaceController.swift */,
+				2D6AF4F71B8236D400AD77A3 /* NotificationController.swift */,
+				2D6AF4F91B8236D400AD77A3 /* GlanceController.swift */,
+				2D6AF4FB1B8236D400AD77A3 /* Images.xcassets */,
+				2D6AF4F21B8236D400AD77A3 /* Supporting Files */,
+			);
+			path = "Polumenta2K15 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2D6AF4F21B8236D400AD77A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF4F31B8236D400AD77A3 /* Info.plist */,
+				2D6AF4F41B8236D400AD77A3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6AF5031B8236D400AD77A3 /* Polumenta2K15 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF5061B8236D400AD77A3 /* Interface.storyboard */,
+				2D6AF5091B8236D400AD77A3 /* Images.xcassets */,
+				2D6AF5041B8236D400AD77A3 /* Supporting Files */,
+			);
+			path = "Polumenta2K15 WatchKit App";
+			sourceTree = "<group>";
+		};
+		2D6AF5041B8236D400AD77A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AF5051B8236D400AD77A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D3534491B832D72004043FB /* DailyPolumenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D35345A1B832D72004043FB /* Build configuration list for PBXNativeTarget "DailyPolumenta" */;
+			buildPhases = (
+				2D3534461B832D72004043FB /* Sources */,
+				2D3534471B832D72004043FB /* Frameworks */,
+				2D3534481B832D72004043FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyPolumenta;
+			productName = DailyPolumenta;
+			productReference = 2D35344A1B832D72004043FB /* DailyPolumenta.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2D6AF4C31B7F899200AD77A3 /* Polumenta2K15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6AF4E31B7F899200AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15" */;
+			buildPhases = (
+				2D6AF4C01B7F899200AD77A3 /* Sources */,
+				2D6AF4C11B7F899200AD77A3 /* Frameworks */,
+				2D6AF4C21B7F899200AD77A3 /* Resources */,
+				2D6AF5141B8236D400AD77A3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6AF50C1B8236D400AD77A3 /* PBXTargetDependency */,
+				2D3534561B832D72004043FB /* PBXTargetDependency */,
+			);
+			name = Polumenta2K15;
+			productName = Polumenta2K15;
+			productReference = 2D6AF4C41B7F899200AD77A3 /* Polumenta2K15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D6AF4D81B7F899200AD77A3 /* Polumenta2K15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6AF4E61B7F899200AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15Tests" */;
+			buildPhases = (
+				2D6AF4D51B7F899200AD77A3 /* Sources */,
+				2D6AF4D61B7F899200AD77A3 /* Frameworks */,
+				2D6AF4D71B7F899200AD77A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6AF4DB1B7F899200AD77A3 /* PBXTargetDependency */,
+			);
+			name = Polumenta2K15Tests;
+			productName = Polumenta2K15Tests;
+			productReference = 2D6AF4D91B7F899200AD77A3 /* Polumenta2K15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D6AF4EF1B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6AF5111B8236D400AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15 WatchKit Extension" */;
+			buildPhases = (
+				2D6AF4EC1B8236D400AD77A3 /* Sources */,
+				2D6AF4ED1B8236D400AD77A3 /* Frameworks */,
+				2D6AF4EE1B8236D400AD77A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6AF5021B8236D400AD77A3 /* PBXTargetDependency */,
+			);
+			name = "Polumenta2K15 WatchKit Extension";
+			productName = "Polumenta2K15 WatchKit Extension";
+			productReference = 2D6AF4F01B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		2D6AF4FE1B8236D400AD77A3 /* Polumenta2K15 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6AF50E1B8236D400AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15 WatchKit App" */;
+			buildPhases = (
+				2D6AF4FD1B8236D400AD77A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polumenta2K15 WatchKit App";
+			productName = "Polumenta2K15 WatchKit App";
+			productReference = 2D6AF4FF1B8236D400AD77A3 /* Polumenta2K15 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6AF4BC1B7F899200AD77A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MM;
+				TargetAttributes = {
+					2D3534491B832D72004043FB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2D6AF4C31B7F899200AD77A3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2D6AF4D81B7F899200AD77A3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2D6AF4C31B7F899200AD77A3;
+					};
+					2D6AF4EF1B8236D400AD77A3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2D6AF4FE1B8236D400AD77A3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 2D6AF4BF1B7F899200AD77A3 /* Build configuration list for PBXProject "Polumenta2K15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D6AF4BB1B7F899200AD77A3;
+			productRefGroup = 2D6AF4C51B7F899200AD77A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6AF4C31B7F899200AD77A3 /* Polumenta2K15 */,
+				2D6AF4D81B7F899200AD77A3 /* Polumenta2K15Tests */,
+				2D6AF4EF1B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension */,
+				2D6AF4FE1B8236D400AD77A3 /* Polumenta2K15 WatchKit App */,
+				2D3534491B832D72004043FB /* DailyPolumenta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D3534481B832D72004043FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3534541B832D72004043FB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4C21B7F899200AD77A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6AF4CF1B7F899200AD77A3 /* Main.storyboard in Resources */,
+				2D6AF4D41B7F899200AD77A3 /* LaunchScreen.xib in Resources */,
+				2D6AF4D11B7F899200AD77A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4D71B7F899200AD77A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4EE1B8236D400AD77A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6AF4FC1B8236D400AD77A3 /* Images.xcassets in Resources */,
+				2D6AF5001B8236D400AD77A3 /* Polumenta2K15 WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4FD1B8236D400AD77A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6AF5081B8236D400AD77A3 /* Interface.storyboard in Resources */,
+				2D6AF50A1B8236D400AD77A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D3534461B832D72004043FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB319DB1B832EE800ACC312 /* Polumentizator.swift in Sources */,
+				2D3534521B832D72004043FB /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4C01B7F899200AD77A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6AF4CC1B7F899200AD77A3 /* ViewController.swift in Sources */,
+				2D6AF4EA1B7F89C300AD77A3 /* Polumentizator.swift in Sources */,
+				2D6AF4CA1B7F899200AD77A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4D51B7F899200AD77A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6AF4E01B7F899200AD77A3 /* Polumenta2K15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6AF4EC1B8236D400AD77A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D35343B1B823B4A004043FB /* Polumentizator.swift in Sources */,
+				2D6AF4F81B8236D400AD77A3 /* NotificationController.swift in Sources */,
+				2D6AF4F61B8236D400AD77A3 /* InterfaceController.swift in Sources */,
+				2D6AF4FA1B8236D400AD77A3 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3534561B832D72004043FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D3534491B832D72004043FB /* DailyPolumenta */;
+			targetProxy = 2D3534551B832D72004043FB /* PBXContainerItemProxy */;
+		};
+		2D6AF4DB1B7F899200AD77A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6AF4C31B7F899200AD77A3 /* Polumenta2K15 */;
+			targetProxy = 2D6AF4DA1B7F899200AD77A3 /* PBXContainerItemProxy */;
+		};
+		2D6AF5021B8236D400AD77A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6AF4FE1B8236D400AD77A3 /* Polumenta2K15 WatchKit App */;
+			targetProxy = 2D6AF5011B8236D400AD77A3 /* PBXContainerItemProxy */;
+		};
+		2D6AF50C1B8236D400AD77A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6AF4EF1B8236D400AD77A3 /* Polumenta2K15 WatchKit Extension */;
+			targetProxy = 2D6AF50B1B8236D400AD77A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D6AF4CD1B7F899200AD77A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6AF4CE1B7F899200AD77A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6AF4D21B7F899200AD77A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6AF4D31B7F899200AD77A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2D6AF5061B8236D400AD77A3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6AF5071B8236D400AD77A3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D3534581B832D72004043FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyPolumenta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D3534591B832D72004043FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DailyPolumenta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2D6AF4E11B7F899200AD77A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D6AF4E21B7F899200AD77A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6AF4E41B7F899200AD77A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Polumenta2K15/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D6AF4E51B7F899200AD77A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Polumenta2K15/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D6AF4E71B7F899200AD77A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Polumenta2K15Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polumenta2K15.app/Polumenta2K15";
+			};
+			name = Debug;
+		};
+		2D6AF4E81B7F899200AD77A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Polumenta2K15Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polumenta2K15.app/Polumenta2K15";
+			};
+			name = Release;
+		};
+		2D6AF50F1B8236D400AD77A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Polumenta2K15_WatchKit_Extension;
+				INFOPLIST_FILE = "Polumenta2K15 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		2D6AF5101B8236D400AD77A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Polumenta2K15_WatchKit_Extension;
+				INFOPLIST_FILE = "Polumenta2K15 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		2D6AF5121B8236D400AD77A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Polumenta2K15 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D6AF5131B8236D400AD77A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Polumenta2K15 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D35345A1B832D72004043FB /* Build configuration list for PBXNativeTarget "DailyPolumenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3534581B832D72004043FB /* Debug */,
+				2D3534591B832D72004043FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6AF4BF1B7F899200AD77A3 /* Build configuration list for PBXProject "Polumenta2K15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6AF4E11B7F899200AD77A3 /* Debug */,
+				2D6AF4E21B7F899200AD77A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6AF4E31B7F899200AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6AF4E41B7F899200AD77A3 /* Debug */,
+				2D6AF4E51B7F899200AD77A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6AF4E61B7F899200AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6AF4E71B7F899200AD77A3 /* Debug */,
+				2D6AF4E81B7F899200AD77A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6AF50E1B8236D400AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6AF50F1B8236D400AD77A3 /* Debug */,
+				2D6AF5101B8236D400AD77A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6AF5111B8236D400AD77A3 /* Build configuration list for PBXNativeTarget "Polumenta2K15 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6AF5121B8236D400AD77A3 /* Debug */,
+				2D6AF5131B8236D400AD77A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6AF4BC1B7F899200AD77A3 /* Project object */;
+}
