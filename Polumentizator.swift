@@ -29,14 +29,12 @@ class Polumentizator {
         var a : String
         
         if( t1.lengthOfBytesUsingEncoding(NSUnicodeStringEncoding) == 1 ) {
-            a = t1.substringFromIndex( advance( t1.startIndex,
-                t1.lengthOfBytesUsingEncoding(NSUnicodeStringEncoding) - 1))
+            a = t1.substringFromIndex( t1.startIndex.advancedBy(t1.lengthOfBytesUsingEncoding(NSUnicodeStringEncoding) - 1))
         } else {
-            a = t1.substringFromIndex( advance( t1.startIndex,
-                t1.lengthOfBytesUsingEncoding(NSUnicodeStringEncoding) - 2))
+            a = t1.substringFromIndex( t1.startIndex.advancedBy(t1.lengthOfBytesUsingEncoding(NSUnicodeStringEncoding) - 2))
         }
         var charset = "лрјљњЂЖЈЛЉНЊРЋЧЏШ"
-        var found = t1.rangeOfString( a )
+        let found = t1.rangeOfString( a )
         var dec : Int;
         if( found != nil ) {
             dec = 2
@@ -44,14 +42,14 @@ class Polumentizator {
             dec = 1
         }
     
-        var t2 = slova[1][ random() % (slova[1].count - dec )]
-        var t3 = slova[2][ random() % (slova[2].count - 1 )]
+        let t2 = slova[1][ random() % (slova[1].count - dec )]
+        let t3 = slova[2][ random() % (slova[2].count - 1 )]
         
         
         // todo 
-        var t4 = ""
+        let t4 = ""
         
-        var final = String(format: "%@%@%@o%@ Полумента", t1, t2, t3, t4 )
+        let final = String(format: "%@%@%@o%@ Полумента", t1, t2, t3, t4 )
         return final
     }
 }

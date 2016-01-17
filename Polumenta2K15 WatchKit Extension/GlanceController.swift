@@ -15,17 +15,17 @@ class GlanceController: WKInterfaceController {
     @IBOutlet weak var polumentaLabel: WKInterfaceLabel!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext( context )
-        var p = Polumentizator()
-        var s = p.polumentizuj()
-        var parts = split( s ) { $0 == " " }
+        let p = Polumentizator()
+        let s = p.polumentizuj()
+        var parts = s.characters.split { $0 == " " }.map { String($0) }
         nameLabel.setText( parts[0] )
         polumentaLabel.setText( parts[1] )
     }
 
     override func willActivate() {
-        var p = Polumentizator()
-        var s = p.polumentizuj()
-        var parts = split( s ) { $0 == " " }
+        let p = Polumentizator()
+        let s = p.polumentizuj()
+        var parts = s.characters.split { $0 == " " }.map { String($0) }
         nameLabel.setText( parts[0] )
         polumentaLabel.setText( parts[1] )
         super.willActivate()

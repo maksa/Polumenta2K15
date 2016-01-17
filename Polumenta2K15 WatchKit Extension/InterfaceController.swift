@@ -17,13 +17,17 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
 
         let p = Polumentizator()
-        var parts = split( p.polumentizuj() ) { $0 == " " }
+        var parts = p.polumentizuj().characters.split { $0 == " " }.map { String($0) }
         nameLabel.setText( parts[0] )
         polumentaLabel.setText( parts[1] )
     }
 
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        let p = Polumentizator()
+        var parts = p.polumentizuj().characters.split { $0 == " " }.map { String($0) }
+        nameLabel.setText( parts[0] )
+        polumentaLabel.setText( parts[1] )
+
         super.willActivate()
     }
 

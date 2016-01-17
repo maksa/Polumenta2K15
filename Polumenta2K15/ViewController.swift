@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var polumentaLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        var p = Polumentizator()
+        let p = Polumentizator()
         self.polumentaLabel.text = p.polumentizuj()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             },
             completion: {
                 (value:Bool) in
-                var p = Polumentizator()
+                let p = Polumentizator()
                 self.polumentaLabel.text = p.polumentizuj()
 
                 UIView.animateWithDuration(0.2,

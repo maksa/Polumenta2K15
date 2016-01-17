@@ -17,18 +17,18 @@ class NotificationController: WKUserNotificationInterfaceController {
     override init() {
         // Initialize variables here.
         super.init()
-        var p = Polumentizator()
-        var s = p.polumentizuj()
-        var parts = split(s) { $0 == " " }
+        let p = Polumentizator()
+        let s = p.polumentizuj()
+        var parts = s.characters.split { $0 == " " }.map { String($0) }
         nameLabel.setText( parts[0] )
         polumentaLabel.setText( parts[1] )
         // Configure interface objects here.
     }
 
     override func willActivate() {
-        var p = Polumentizator()
-        var s = p.polumentizuj()
-        var parts = split(s) { $0 == " " }
+        let p = Polumentizator()
+        let s = p.polumentizuj()
+        var parts = s.characters.split { $0 == " " }.map { String($0) }
         nameLabel.setText( parts[0] )
         polumentaLabel.setText( parts[1] )
         super.willActivate()

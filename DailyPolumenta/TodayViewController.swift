@@ -23,11 +23,11 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         // Dispose of any resources that can be recreated.
     }
     
-    func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
+    func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)) {
         // Perform any setup necessary in order to update the view.
 
-        var p = Polumentizator()
-        var s = p.polumentizuj()
+        let p = Polumentizator()
+        let s = p.polumentizuj()
         polumentaLabel.text = s;
         
         completionHandler(NCUpdateResult.NewData)
